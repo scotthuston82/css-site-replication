@@ -3,8 +3,88 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+}
+img {
+  width: 100%;
+}
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header {
+  background-color: #1c5380;
+  padding-top: 80px;
+  height: 300px;
+}
+.phones {
+  float: left;
+  width: 30%;
+}
+.instagram {
+  float: left;
+  width: 70%;
+  padding-right: 60px;
+}
+button {
+  float: left;
+  width: 20%;
+  color: white;
+  background-color: #1c5380;
+}
+button img {
+  width: 40%;
+  margin-top: 20px;
+}
+button p {
+  margin-bottom: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+.container {
+  float: left;
+  margin-left: 50px;
+  width: calc(70%-50px);
+}
+.only {
+  overflow: hidden;
+}
+.only h2 {
+  color: #06365f;
+  overflow: hidden;
+}
+.only .container {
+  float: right;
+  width: 50%;
+  margin-right: 150px;
+  overflow: hidden;
+}
+.logo {
+  width: 47%;
+  float: left;
+}
+.logo2 {
+  width: 47%;
+  float: right;
+}
+footer {
+  clear: both;
+}
+footer ul {
+  list-style: none;
+  margin: 50px auto;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  padding: 10px;
+}
+footer li {
+  display: inline-block;
 }
